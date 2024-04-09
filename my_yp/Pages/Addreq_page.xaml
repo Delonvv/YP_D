@@ -1,0 +1,53 @@
+﻿<Page x:Class="my_yp.Pages.Addreq_page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:my_yp.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Addreq_page">
+
+
+    <Grid Background="Aqua">
+        <Label Content="Добавить заявку" Foreground="White" FontSize="26" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Width="220" Margin="10,10,0,0"/>
+
+        <Grid Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="19*"/>
+                <ColumnDefinition Width="141*"/>
+            </Grid.ColumnDefinitions>
+            <Image Margin="589,338,0,0" HorizontalAlignment="Left" Width="94" Height="108" VerticalAlignment="Top" Grid.Column="1">
+                <Image.Source>
+                    <FormatConvertedBitmap Source="C:\Users\Delon\Desktop\UPDesckop-master\UPDesckop\Images\qrUsers.jpg"/>
+                </Image.Source>
+            </Image>
+
+            <TextBox x:Name="tbnumberreq" Text="" FontSize="16" Margin="110,98,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="227" Grid.Column="1"/>
+            <TextBox x:Name="tbDate" Text="" FontSize="16" Margin="110,145,0,0" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left" Width="227" Grid.Column="1"/>
+            <TextBox x:Name="tbEquipment" Text="" FontSize="16" Margin="110,190,0,0" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left" Width="227" Grid.Column="1"/>
+            <TextBox x:Name="tbTypePromlem" Text="" FontSize="16" Margin="110,239,0,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="227" Grid.Column="1"/>
+            <TextBox x:Name="tbDesc" Text="" FontSize="16" Margin="110,279,0,0" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="227" Grid.Column="1"/>
+            <TextBox x:Name="tbState" Text="" FontSize="16" Margin="110,338,0,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="228" Grid.Column="1"/>
+            <Button Margin="133,389,0,0" Click="Add" Height="28" VerticalAlignment="Top" Content="Добавить" Background="White" FontSize="16" HorizontalAlignment="Left" Width="176" RenderTransformOrigin="0.5,0.5" Grid.Column="1" >
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="3.953"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="1.731"/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+            <Button Margin="0,10,10,0" Click="Auth" Height="30" VerticalAlignment="Top" Content="Выход" Background="White" FontSize="16" HorizontalAlignment="Right" Width="92" Grid.Column="1" />
+            <Label Content="Номер заявки:" HorizontalAlignment="Left" Margin="6,98,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+            <Label Content="Дата: " HorizontalAlignment="Left" Margin="51,145,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+            <Label Content="Оборудование:" HorizontalAlignment="Left" Margin="6,189,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+            <Label Content="Тип проблемы:" HorizontalAlignment="Left" Margin="7,238,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+            <Label Content="Описание проблемы:" HorizontalAlignment="Left" Margin="68,281,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+            <Label Content="Статус:" HorizontalAlignment="Left" Margin="48,338,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+
+        </Grid>
+
+    </Grid>
+</Page>
