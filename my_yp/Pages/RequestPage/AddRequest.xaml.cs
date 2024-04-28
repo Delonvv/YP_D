@@ -12,9 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using ForCla
-using ForCLass.Entities;
-using my_yp.
+using my_yp.Classes;
 
 namespace my_yp.Pages.RequestPage
 {

@@ -4,22 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace my_yp.Classes
+namespace ForClass.Classes
 {
     public class User
     {
-        public int UserId { get; set; }
-        public string Username { get; set; }
+        public int Id { get; set; }
+        public string Login { get; set; }
         public string Password { get; set; }
-        public string UserRole { get; set; }
-        public User() { }
-        public User(int userId, string username, string password, string userRole)
-        {
-            UserId = userId;
-            Username = username;
-            Password = password;
-            UserRole = userRole;
-        }
+        public string Role { get; set; }
+
+        public int? RequestId { get; set; }
+        public Requests Request { get; set; }
+
+        public IEnumerable<History> History { get; set; }
     }
 }
-

@@ -74,8 +74,11 @@
     </Compile>
     <Compile Include="Classes\Client.cs" />
     <Compile Include="Classes\Employe.cs" />
+    <Compile Include="Classes\History.cs" />
     <Compile Include="Classes\IssueStatistics.cs" />
+    <Compile Include="Classes\MainContext.cs" />
     <Compile Include="Classes\Manager.cs" />
+    <Compile Include="Classes\Requests.cs" />
     <Compile Include="Classes\ServiceRequest.cs" />
     <Compile Include="Classes\ServiceRequestHistory.cs" />
     <Compile Include="Classes\User.cs" />
