@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Delon\source\repos\my_yp\my_yp\App.xaml
-517815302
+6-217565338
 
-18477974430
+18-1067665256
 14-707060909
-MainWindow.xaml;Pages\Addreq_page.xaml;Pages\Login.xaml;Pages\manager_page.xaml;Pages\worker_page.xaml;
+MainWindow.xaml;Pages\Addreq_page.xaml;Pages\Login.xaml;Pages\manager_page.xaml;Pages\RequestPage\AddRequest.xaml;Pages\worker_page.xaml;
 
 True
 
